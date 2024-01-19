@@ -37,6 +37,10 @@ public class StringOps {
         }
         for(int i = 0; i < newSentence.length(); i++) {
 			char currentChar = newSentence.charAt(i);
+		/* 
+  		why didn't you create a helper isVowel()?
+		could be a lot cleaner
+  		*/
             if(vowels.indexOf(currentChar) != -1) {
                 currentChar = (char)(currentChar - 32);
             }
