@@ -56,6 +56,10 @@ public class ArrayOps {
             if(count == 0) {
                 return false;
             }
+		/* 
+        this is an aggressive copy of code, you should have created a helper function,
+            we have functions so we do not need to copy-paste code
+            */
         }
         return true;
     }
@@ -71,6 +75,7 @@ public class ArrayOps {
             increase = false;
         } 
     }
+	// nice and elegant, LIKE!
     if(decrease != increase) {
     return true;
     }
